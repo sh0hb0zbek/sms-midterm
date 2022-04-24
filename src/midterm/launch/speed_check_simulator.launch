@@ -1,0 +1,6 @@
+<launch>
+  <param name="speed" value="50" type="double"/>
+  <param name="plate_number" value="1234" type="double"/>
+  <node name="speed_limit_node1" pkg="midterm" type="speed_limit" />
+  <node name="speed_check_node1" pkg="midterm" type="speed_check" />
+</launch>
