@@ -218,7 +218,7 @@ _
  ```bash
  ros@ubuntu:~/catkin_ws/midterm$ rosparam set speed 75
  ros@ubuntu:~/catkin_ws/midterm$
- ```
+ ```bash
  ros@ubuntu:~/catkin_ws/midterm$ rostopic echo speed_limit
  data: 1234.0
  ---
