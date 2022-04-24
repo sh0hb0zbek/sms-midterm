@@ -175,8 +175,8 @@ process[speed_limit_node1-1]: started with pid [75760]
 process[speed_check_node1-2]: started with pid [75761]
 ```
 - Test changing speed 
-  - ```bash plate_number``` is pre-defined (1234) and can be modified by ```bash rosparam set plate_number <new_value>```
-  - ```bash speed``` is pre-defined (50 km/h) and can be modified by ```bash rosparam set speed <new_value>```
+  - ```plate_number``` is pre-defined (1234) and can be modified by ```rosparam set plate_number <new_value>```
+  - ```speed``` is pre-defined (50 km/h) and can be modified by ```rosparam set speed <new_value>```
 ```bash
 os@ubuntu:~/catkin_ws/midterm$ rosparam list
 /plate_number <-------------
@@ -207,13 +207,12 @@ ros@ubuntu:~/catkin_ws/midterm$ rostopic list
 /speed_limit <-------------
 ros@ubuntu:~/catkin_ws/midterm$ 
 ```
-  - Initially there will not be any output as the ```bash speed``` does not exceed the ```speed_limit```
+  - Initially there will not be any output as the ```speed``` does not exceed the ```speed_limit```
 ```bash
 ros@ubuntu:~/catkin_ws/midterm$ rostopic echo speed
 _
 ```
   - Increase ```speed``` that exceeds ```speed_limit``` (higher than 70) in a new tab
-  ```bash 
  ```bash
  ros@ubuntu:~/catkin_ws/midterm$ rosparam set speed 75
  ros@ubuntu:~/catkin_ws/midterm$
