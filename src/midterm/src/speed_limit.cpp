@@ -22,6 +22,8 @@ int main(int argc, char **argv)
     std_msgs::Float32 msg;
 
     msg.data = SPEED_LIMIT;
+    
+    speed_limit.publish(msg);
 
     pub_rate.sleep();
   }
