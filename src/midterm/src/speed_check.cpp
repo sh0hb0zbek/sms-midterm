@@ -40,7 +40,7 @@ int main(int argc, char **argv)
 
   ros::NodeHandle node_handle;
 
-  speed_check = node_handle.advertise<std_msgs::Float32>("speed", 10);
+  speed_check = node_handle.advertise<std_msgs::Float32>("speed_check", 10);
 
   ros::Subscriber speed_limit = node_handle.subscribe("speed_limit", 10, subCallback);
 
