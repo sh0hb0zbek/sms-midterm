@@ -220,7 +220,7 @@ _
  ```
    -  and the ```plate_number``` will be printed
  ```bash
- ros@ubuntu:~/catkin_ws/midterm$ rostopic echo speed_limit
+ ros@ubuntu:~/catkin_ws/midterm$ rostopic echo speed
  data: 1234.0
  ---
  data: 1234.0
