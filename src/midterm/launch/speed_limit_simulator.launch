@@ -1,4 +1,4 @@
 <launch>
   <param name="speed_limit" value="70" type="double"/>
-  <node name="speed_limit_node1" pkg="roslaunch_project1_cpp_pkg" type="speed_limit" />
+  <node name="speed_limit_node1" pkg="roslaunch_midterm_cpp_pkg" type="speed_limit" />
 </launch>
