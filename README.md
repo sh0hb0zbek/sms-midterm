@@ -214,10 +214,11 @@ _
 ```
   - Increase ```speed``` that exceeds ```speed_limit``` (higher than 70) in a new tab
   ```bash 
-  -  and the ```plate_number``` will be printed
  ```bash
  ros@ubuntu:~/catkin_ws/midterm$ rosparam set speed 75
  ros@ubuntu:~/catkin_ws/midterm$
+ ```
+   -  and the ```plate_number``` will be printed
  ```bash
  ros@ubuntu:~/catkin_ws/midterm$ rostopic echo speed_limit
  data: 1234.0
